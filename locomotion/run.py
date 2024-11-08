@@ -2,7 +2,8 @@ import os
 import argparse
 import json
 import subprocess
-
+import sys
+sys.path.append('../')
 parser = argparse.ArgumentParser(description='A simple script with two arguments.')
 
 parser.add_argument('--dataset', help='One of halfcheetah, hopper, or walker2d')
